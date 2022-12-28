@@ -1,0 +1,676 @@
+/**Fontface**/
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family: 'Nunito', sans-serif;
+}
+
+.username-3JLfHz { /*UserProfileMini*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.discrimBase-KriZSj { /*UserDiscrimProfileMini*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.heading-md-semibold-3sznX7 { /*ChannelName*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.membersGroup-2eiWxl{ /*Roles*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.overflow-1wOqNV { /*Category*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.goalText-mbRUAP { /*BoostGoalLevel*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.text-xs-normal-3SiVjE { /*BoostProgressFraction*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.name-3Uvkvr { /*ServerName*/
+  font-family: 'Nunito', sans-serif;
+} 
+
+.headerText-1qIDDT { /*DMListHeader*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.postTitleText-2ARr84 { /*ForumsPostTitleListView*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.username-u-ebrn { /*ForumsPostAuthor*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.messageContent-1SOr75 { /*ForumsPostMessage*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.text-sm-normal-3Zj3Iv { /*ForumsPostPostDate*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.discoverHeader-1vsvZ0 { /*DiscoverHeader*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.text-xs-semibold-3E_l31 { /*ForumsChannelNumber*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.guidelinesHeader-27Ea77 { /*ForumsPostGuidelinesTitle*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.total-1c5KCN { /*VCCapacity*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.eyebrow-Ejf06y { /*SettingsHeader*/
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-3hptVQ { /*SettingsTitle*/
+  font-family: 'Nunito', sans-serif;
+}
+
+/**Var**/
+:root {
+  --vcolor: rgb(255, 168, 214);
+  --font: 'Nunito', sans-serif;
+}
+
+/**DefaultMoveAnimation**/
+@keyframes move {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/**MessageAnimation**/
+.message-2CShn3 {
+  animation: move .3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/**MembersListAnimation**/
+.members-3WRCEx { 
+  animation: move .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/**SidebarRServerListAnimation**/
+[aria-label="Servers"] { 
+  animation: move .3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.peopleListItem-u6dGxF {
+  animation: move .5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.circleIconButton-1VxDrg {
+  animation: move .5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/**DiscoverServersListItem**/
+.loaded-igpmmx {
+  animation: move .8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/**ForumsPostsAnimation**/
+.container-2qVG6q { /*List*/
+  animation: move .3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.container-1PloNW { /*Gallery*/
+  animation: move .3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/**TotalNotifs**/
+.numberBadge-37OJ3S {
+  background-color: var(--vcolor) !important;
+}
+
+/**ProfilePanelButtons**/
+.mutualGuildsList-37Q6HT {
+  display: none;
+}
+
+.mutualFriendsList-7kySbG {
+  display: none;
+}
+
+/**Button**/
+.lookFilled-yCfaCM {
+  background-color: var(--vcolor) !important;
+  border-radius: 25px;
+}
+
+.lookFilled-yCfaCM:hover {
+  background-color: rgb(255, 181, 220) !important;
+}
+
+/**OutlinedButton**/
+.lookOutlined-3yKVGo {
+  border-radius: 75px;
+  border-color: var(--vcolor) !important;
+}
+
+.lookOutlined-3yKVGo:hover {
+  background-color: var(--vcolor) !important;
+  border-color: var(--vcolor) !important;
+}
+
+/**DropdownSelect**/
+.select-1Ia3hD {
+  border-radius: 25px;
+}
+
+/**RadioSelect**/
+.radioBar-3w9XY- {
+  color: var(--vcolor);
+}
+
+.radioIconForeground-2BMavi {
+  color: var(--vcolor);
+}
+
+/**Slider**/
+.barFill-2Bh7CX {
+  background-color: var(--vcolor);
+}
+
+.grabber-2GQyvM {
+  border-radius: 75px;
+}
+
+/**Checkbox**/
+.checkbox-f1HnKB {
+  border-radius: 75px !important;
+}
+
+/**ControlPill**/
+.checked-25WXMf {
+  background-color: var(--vcolor) !important;
+}
+
+/**Chatbar**/
+.scrollableContainer-15eg7h:not(.channelTextAreaInner-2_mflx) {
+  border-radius: 25px;
+}
+
+.channelTextArea-1VQBuV {
+  border-radius: 25px;
+}
+
+/**VideoPlayerProgressBar**/
+.mediaBarProgress-38I317 {
+  background-color: var(--vcolor) !important;
+}
+
+.mediaBarProgress-38I317:before {
+  background-color: var(--vcolor) !important;
+}
+
+.mediaBarProgress-38I317:after {
+  background-color: var(--vcolor) !important;
+}
+
+.mediaBarGrabber-FvJKJg {
+  background-color: var(--vcolor) !important;
+}
+
+/**PlayPausePopup**/
+.playPausePop-1x3uED {
+  color: var(--vcolor);
+}
+
+/**FileUpload**/
+.upload-vLbqu- {
+  border-radius: 15px;
+  bottom: 5px;
+}
+
+/**FileUploadTags**/
+.altTag-3DeQpq {
+  border-radius: 75px;
+}
+
+/**SideButtons**/
+.circleIconButton-1VxDrg {
+  background: transparent;
+}
+
+.circleIconButton-1VxDrg:hover {
+  background: var(--vcolor);
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+  background: var(--vcolor);
+}
+
+/**GeneralSearch**/
+.searchBar-jGtisZ {
+  border-radius: 75px;
+}
+
+/**DiscoverSearch**/
+.searchBox-31Zv9h {
+  border-radius: 75px;
+}
+
+/**SidebarUnreadBar**/
+.item-2LIpTv {
+  background-color: var(--vcolor);
+}
+
+/**Channels**/
+[aria-label="Channels"] {
+  animation: move .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.content-1gYQeQ {
+  border-radius: 75px;
+}
+
+/**MemberCrown**/
+.ownerIcon-255uKo {
+  color: var(--vcolor);
+}
+
+/**UnreadDivider**/
+.unreadPill-3nEWYM {
+  background-color: var(--vcolor);
+  border-radius: 75px;
+  width: 40px;
+  padding-left: 6px;
+}
+
+.unreadPillCap-2-iI4h {
+  opacity: 0;
+}
+
+/**MessageOptions**/
+.wrapper-2vIMkT {
+  border-radius: 75px;
+  bottom: 6px;
+}
+
+/**WebLink**/
+.anchorUnderlineOnHover-2qPutX {
+  color: var(--vcolor) !important;
+}
+
+/**GifPanel**/
+.categoryFadeBlurple-1l49_Q {
+  background-color: rgba(255, 168, 214, .8) !important;
+}
+
+.result-pzZrwj:hover {
+  border-color: var(--vcolor) !important;
+}
+
+/**Reactions**/
+.reaction-3vwAF2 {
+  border-radius: 75px;
+}
+
+.reactionMe-1PwQAc {
+  border-radius: 15px;
+}
+
+/**Mention**/
+.mention {
+  border-radius: 75px !important;
+  background: rgba(255, 168, 214, .5);
+  color: white;
+}
+
+.mention:hover {
+  background: rgba(255, 168, 214, 1);
+  color: white;
+}
+
+/**MentionedMessageHighlight**/
+.mentioned-Tre-dv {
+  background-color: rgba(255, 168, 214, .25) !important;
+}
+
+.mentioned-Tre-dv:hover {
+  background-color: rgba(255, 168, 214, .2) !important;
+}
+
+.mentioned-Tre-dv:before {
+  background-color: var(--vcolor);
+}
+
+/**Roles**/
+.role-2TIOKu {
+  border-radius: 75px;
+}
+
+/**DiscordBotBadge**/
+.botTagCozy-3NTBvK {
+  background: var(--vcolor) !important;
+  left: 2px;
+}
+
+.botTag-2mryIa {
+  background: var(--vcolor);
+  left: 2px;
+}
+
+/**DiscordTextBadge**/
+.textBadge-1fdDPJ {
+  background-color: var(--vcolor) !important;
+}
+
+.newBadge-1LcB6t {
+  color: white;
+}
+
+/**OPForumsBadge**/
+[aria-label="Original Poster"] {
+  background-color: rgb(251, 198, 226);
+  color: black;
+}
+
+/**AddReactionForums**/
+.addReactButton-3bSQb6 {
+  border-radius: 75px;
+}
+
+/**ForumsFollowLinkButtons**/
+.buttonInner-3aRbcx {
+  border-radius: 75px;
+  color: var(--vcolor); 
+}
+
+.buttonInner-3aRbcx:hover {
+  color: var(--vcolor);
+}
+
+/**ForumsSort&View**/
+.sortDropdownEmptyTags-B41Zhb {
+  background-color: transparent !important;
+  border-radius: 75px;
+  margin-bottom: 1px;
+}
+
+.sortDropdownEmptyTags-B41Zhb:hover {
+  background-color: rgb(32,34,37) !important;
+}
+
+/**ForumsTagsFilter**/
+.tagsButton-4pwOKH {
+  background-color: rgb(32,34,37) !important;
+  height: 32px;
+  width: 32px;
+}
+
+.tagsButton-4pwOKH > button:last-child {
+  display: none;
+}
+
+.tagsButton-4pwOKH:hover {
+  background-color: rgb(25, 26, 29) !important;
+}
+
+/**ForumsPinned**/
+.pinIcon-3I5-gm {
+  background-color: var(--vcolor);
+}
+
+/**ForumsPostGuidelines**/
+.container-3arpDl {
+  border-radius: 27px;
+}
+
+/**ForumsPostGuidelinesShowMore**/
+.showMoreText-1jKd_4 {
+  color: white, !important;
+}
+
+.descriptionContainer-2ylKGk {
+  border-radius: 27px;
+}
+
+/**ForumsSearch**/
+.mainCard-3KBsBI {
+  border-radius: 27px;
+}
+
+.matchingPostsRow-2IiEQ1 {
+  display: none;
+  position: absolute;
+  align-items: center;
+}
+
+/**ForumsCreatePostImageNumber**/
+.badge-39TqBS {
+  background-color: var(--vcolor);
+}
+
+/**ForumsCreatePostAddImages**/
+.imageSmall-308hjB {
+  border-radius: 75px;
+}
+
+/**ForumsCreatePostImagesAdded**/
+.popout-2vZMlk {
+  border-radius: 27px;
+}
+
+/**ForumsGalleryCardPostBody**/
+.contentPreview-3fWiuC {
+  border-radius: 15px !important;
+}
+
+.bodyMediaFrame-3eNgja {
+  border-radius: 15px;
+}
+
+/**ForumsReaction**/
+.reaction-102jx9 {
+  border-radius: 75px;
+}
+
+/**ForumsCreatePostUploadImage**/
+.uploadInput-3fblkw {
+  border-radius: 75px;
+}
+
+/**Tabs**/
+[aria-selected="true"].tabBarItem-MeqDhW {
+  border-color: var(--vcolor) !important;
+}
+
+[aria-selected="false"].tabBarItem-MeqDhW:hover {
+  border-color: rgb(255, 187, 223) !important;
+}
+
+/**ServerMenuOptionsSelect**/
+.item-1OdjEX:hover {
+  background: var(--vcolor);
+}
+
+[id=guild-header-popout-invite-people] {
+  color: var(--vcolor);
+}
+
+/**DiscoverPageButtons**/
+[aria-selected="true"].categoryItem-Kc_HK_ .itemInner-3e_4G4 {
+  background-color: var(--vcolor);
+}
+
+/**VCName**/
+.text-md-normal-304U3g {
+  border-radius: 75px;
+}
+
+/**TextFormattingToolbar**/
+.staticToolbar-x12NJC {
+  border-radius: 75px !important;
+  margin-bottom: 7px;
+}
+
+.buttons-3snlAO > button {
+  background-color: transparent !important;
+}
+
+.buttons-3snlAO > button:hover {
+  background-color: transparent !important;
+  color: pink !important;
+}
+
+/**TextInput**/
+.inputDefault-3FGxgL {
+  border-radius: 25px;
+}
+
+/**SaveChangesNotice**/
+.container-20TyK0 {
+  border-radius: 75px;
+}
+
+.button-1sjQOW {
+  border-radius: 75px;
+}
+
+/**RefreshConnections**/
+.metadataContainer-35U-On {
+  border-radius: 25px;
+}
+
+/**AddConnections**/
+.accountButtonInner-33vCDY {
+  border-radius: 25px !important;
+}
+
+.accountButtonInner-33vCDY > svg {
+  margin-top: 4px;
+  margin-left: 2px;
+}
+
+/**GameOverlaySettings**/
+.selected-18Wszc{
+  background-color: var(--vcolor) !important;
+}
+
+.wrapper-SdcMKg {
+  border-color: var(--vcolor);
+}
+
+/** Better Jump To Present Button 
+Author: Lonk#6942
+**/
+[class*=jumpToPresentBar] {
+  display: contents;
+}
+
+[class*=jumpToPresentBar] > button:first-child {
+  display: none;
+}
+
+[class*=jumpToPresentBar] > button:last-child {
+  position: absolute;
+  z-index: 1;
+  bottom: 24px;
+  right: 22px;
+  padding: 8px !important;
+  height: auto;
+  background-color: transparent;
+  box-shadow: var(--elevation-high);
+  border-radius: 100px;
+  display: flex;
+  font-size: 0px;
+  color: transparent;
+  transition: font-size 0.2s 0.1s, color 0.2s, padding 0.4s 0.1s;
+}
+
+[class*=jumpToPresentBar] > button svg {
+  order: -1;
+  margin: 0px;
+  height: 24px;
+  width: 24px;
+  top: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: white;
+  transition: margin 0.6s;
+}
+
+[class*=jumpToPresentBar]:hover > button {
+  padding: 8px 18px !important;
+  font-size: 14px;
+  color: white;
+  transition: font-size 0.2s, color 0.2s 0.1s, padding 0.4s;
+}
+
+[class*=jumpToPresentBar]:hover > button svg {
+  margin-right: 2px;
+  margin-left: -6px;
+}
+
+/** Better New Messages Bar
+Author: vis/aegis
+**/
+[class*=newMessagesBar] {
+  display: contents;
+}
+
+[class*=newMessagesBar] > button:first-child {
+  display: none;
+}
+
+[class*=newMessagesBar] > button:last-child {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  right: 22px;
+  padding: 8px !important;
+  height: auto;
+  background-color: transparent;
+  box-shadow: var(--elevation-high);
+  border-radius: 100px;
+  display: flex;
+  font-size: 0px;
+  color: transparent;
+  transition: font-size 0.2s 0.1s, color 0.2s, padding 0.4s 0.1s;
+}
+
+[class*=newMessagesBar] > button svg {
+  order: -1;
+  margin: 0px;
+  height: 25px;
+  width: 25px;
+  top: auto;
+  left: 3.5px;
+  bottom: 2px;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: white;
+  transition: margin 0.6s;
+}
+
+[class*=newMessagesBar]:hover > button {
+  padding: 8px 18px !important;
+  font-size: 14px;
+  color: white;
+  transition: font-size 0.2s, color 0.2s 0.1s, padding 0.4s;
+}
+
+[class*=newMessagesBar]:hover > button svg {
+  margin-right: 2px;
+  margin-left: -6px;
+}
